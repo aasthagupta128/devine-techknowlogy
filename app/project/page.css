@@ -1,0 +1,402 @@
+    html {
+        margin: 0;
+        background: #F1F1F1;
+        /* overflow: hidden; */
+    }
+    
+    .header-project {
+        margin-top: 6.13rem;
+    }
+    
+    .header-proj-para {
+        color: #000;
+        text-align: center;
+        font-family: VANDAL Free Font;
+        font-size: 3.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: auto;
+        margin-right: auto;
+        width: 78rem;
+        height: 11.6rem;
+        background: transparent;
+    }
+    
+    .header-quote-up {
+        position: relative;
+        top: 2rem;
+        left: 9rem
+    }
+    
+    .header-quote-down {
+        position: relative;
+        /* top: 0rem; */
+        bottom: 2.5rem;
+        left: 73rem;
+        background: transparent;
+    }
+    
+    .project-1 {
+        background: url('/project-1.png');
+        background-size: cover;
+        width: 71.8rem;
+        height: 55rem;
+        margin-left: auto;
+        margin-right: auto;
+        fill: #62B4FF;
+        margin-top: 10.19rem;
+    }
+    
+    .mood-1 {
+        position: relative;
+        margin-top: 1rem;
+        margin-left: 6.31rem;
+        border-radius: 0.3125rem;
+        border: 4px solid #000;
+        box-shadow: 4px 4px 0px 0px #000;
+        padding: .4rem;
+    }
+    
+    .sudeepplasticsurgery {
+        width: 21.433rem;
+        height: 5.5rem;
+        margin-top: 5.94rem;
+        margin-left: 23rem;
+        border-radius: 0.3125rem;
+        border: 3px solid #000;
+        background: #FFF;
+    }
+    
+    .project-1 h2 {
+        border-radius: 0.3125rem;
+        background: #FAFAFA;
+        box-shadow: 3px 3px 0px 0px #000;
+        display: inline-flex;
+        padding: 0.5625rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        color: #000;
+        font-family: VANDAL-Free-Font;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        bottom: 25rem;
+        left: 42rem;
+    }
+    
+    .check-now {
+        color: #000;
+        text-align: center;
+        font-family: VANDAL-Free-Font;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        position: relative;
+        width: 14.625rem;
+        height: 2.75rem;
+        bottom: 25rem;
+        left: 43rem;
+    }
+    
+    .description {
+        color: #000;
+        font-family: Gilroy-Medium;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        border: 3px solid #000;
+        background: #B2FF51;
+        box-shadow: 4px 4px 0px 0px #000;
+        width: 28.5rem;
+        height: 12.6rem;
+        position: relative;
+        bottom: 23rem;
+        left: 33.5rem;
+        padding: 1.125rem 1.125rem 0 1.125rem;
+    }
+    
+    .review-1 {
+        height: 43vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .review-1 img {
+        position: relative;
+        width: 16.3rem;
+        height: 18.3rem;
+        margin-left: 9.25rem;
+        margin-top: 0.25rem;
+    }
+    
+    .review-des {
+        color: #FFF;
+        font-family: Gilroy-Medium;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 0.3125rem;
+        border: 1px solid #000;
+        background: #F27E7E;
+        box-shadow: 4px 4px 0px 0px #000;
+        width: 46.6rem;
+        height: 6.5rem;
+        margin-left: 27.56rem;
+        position: relative;
+        /* margin-top: 7.25rem; */
+        bottom: 17rem;
+        padding: 1.125rem 1.125rem 0 1.125rem;
+    }
+    
+    .review-1 h2 {
+        color: #000;
+        font-family: Gilroy-Bold;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        margin-left: 27.56rem;
+        /* margin-top: 7.25rem; */
+        bottom: 17rem;
+    }
+    
+    .review-1 p {
+        color: #000;
+        font-family: Gilroy-Medium;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        /* margin-left: 2.25rem; */
+        bottom: 17rem;
+        left: 27.56rem;
+    }
+    
+    .quote-yellow {
+        width: 10rem;
+        height: 13.60513rem;
+        position: relative;
+        margin-left: 60.25rem;
+        /* margin-top: 7.25rem; */
+        bottom: 31rem;
+    }
+    
+    .project-2 {
+        background: url('/project-2.png');
+        background-size: cover;
+        width: 69.75rem;
+        height: 55.625rem;
+        margin-left: auto;
+        margin-right: auto;
+        fill: #62B4FF;
+        margin-top: 9.387rem;
+    }
+    
+    .ENT-img {
+        width: 16.28519rem;
+        height: 5.5rem;
+        margin-top: 7.94rem;
+        margin-left: 26.75rem;
+        border-radius: 0.3125rem;
+    }
+    
+    .ENT-descp {
+        display: inline-flex;
+        padding: 1.25rem;
+        width: 27.3125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border: 3px solid #000;
+        background: #F1F333;
+        box-shadow: 4px 4px 0px 0px #000;
+        margin-top: 3.94rem;
+        margin-left: 6.75rem;
+    }
+    
+    .ENT-live p {
+        color: #000;
+        text-align: center;
+        font-family: VANDAL-Free-Font;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        position: relative;
+        margin-top: 6rem;
+        margin-left: 15rem;
+        width: 14.625rem;
+        /* 1.70625rem */
+    }
+    
+    .ENT-live h2 {
+        display: inline-flex;
+        padding: 0.5625rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.3125rem;
+        background: #5B8E7D;
+        box-shadow: 3px 3px 0px 0px #000;
+        position: relative;
+        bottom: 2rem;
+        margin-left: 13rem;
+    }
+    
+    .mood-2 {
+        width: 24.0625rem;
+        height: 25.50831rem;
+        position: relative;
+        bottom: 23.7rem;
+        margin-left: 39rem;
+    }
+    
+    .tech-stack-1 {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 0.625rem;
+        position: relative;
+        bottom: 9rem;
+        left: 48.81rem;
+    }
+    
+    .tech-stack-1 ul {
+        display: flex;
+        padding: 0.5625rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.3125rem;
+        border: 2px solid #000;
+        background: #FFF;
+        box-shadow: 4px 4px 0px 0px #000;
+        color: #000;
+        font-family: VANDAL-Free-Font;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    
+    .tech-stack-2 {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 0.625rem;
+        position: relative;
+        bottom: 12rem;
+        left: 21.81rem;
+    }
+    
+    .tech-stack-2 ul {
+        display: flex;
+        padding: 0.5625rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.3125rem;
+        border: 2px solid #000;
+        background: #FFF;
+        box-shadow: 4px 4px 0px 0px #000;
+        color: #000;
+        font-family: VANDAL-Free-Font;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    
+    .para-ENT {
+        color: #000;
+        font-family: Gilroy-Medium;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 0.3125rem;
+        border: 1px solid #000;
+        background: #FFB587;
+        box-shadow: 4px 4px 0px 0px #000;
+        display: flex;
+        padding: 0.9375rem;
+        align-items: flex-start;
+        gap: 0.625rem;
+        margin-left: 9.25rem;
+        margin-right: 29.5rem;
+    }
+    
+    .dr-prayatna {
+        color: #000;
+        font-family: Gilroy-Bold;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .designation {
+        color: #000;
+        font-family: Gilroy-Medium;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .red-thumbs-up {
+        position: relative;
+        margin-left: 67.88rem;
+        bottom: 10rem;
+        /* margin-right: 11.19rem; */
+    }
+    
+    .review-2 {
+        margin-top: 11.16rem;
+        margin-left: 5rem;
+        height: 50vh;
+    }
+    
+    .sudeepent-quote {
+        position: relative;
+        margin-left: 9.14rem;
+        bottom: 17rem;
+    }
+    
+    .name {
+        color: #000;
+        font-family: Gilroy-Bold;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        margin-left: 54rem;
+        bottom: 24rem;
+    }
+    
+    .designation {
+        color: #000;
+        font-family: Gilroy-Medium;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        margin-left: 47rem;
+        bottom: 23.5rem;
+    }
+    
+    .green {
+        background-color: #CDFB6A;
+        margin-top: 9.38rem;
+        display: flex;
+        align-items: center;
+    }

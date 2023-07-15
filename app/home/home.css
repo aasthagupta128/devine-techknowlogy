@@ -1,0 +1,308 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #F1F1F1;
+    ;
+}
+
+
+/* HOME LANDING PAGE -----------------------------------------------------------------------------------------*/
+
+.headline {
+    position: relative;
+    display: inline-block;
+}
+
+.header-image {
+    display: block;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    /* aspect-ratio: 2.96/1; */
+    margin-top: 3.56rem;
+    z-index: -1;
+}
+
+.col {
+    border-radius: 0.3125rem;
+    border: 4px solid #000;
+    box-shadow: 4px 4px 0px 0px #000;
+    width: 80vw;
+    height: auto;
+    background-color: white;
+}
+
+
+/* Using Flexbox */
+
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    margin-left: 4.88rem;
+    margin-right: auto;
+    position: absolute;
+    top: 55%;
+    width: 90vw;
+    /* background: transparent; */
+}
+
+.col-01 h2 {
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    background: #6041F8;
+    display: flex;
+    padding: 0.3125rem 0rem;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: white;
+    font-family: Gilroy-Regular;
+}
+
+.col-01 p {
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Gilroy-Regular;
+}
+
+.col-01 h3 {
+    color: #000;
+    font-family: Gilroy-bold;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: end;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+
+/* WHY CHOOSE US---------------------------------------------------------------------------------- */
+
+.why-choose-us-main {
+    margin-top: 7.38rem;
+}
+
+.grid-container-wcu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* max-width: 800px; */
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.box-wcu {
+    display: flex;
+    padding: 0.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 1.5625rem; */
+    width: 20vw;
+    height: fit-content;
+    /* transform: rotate(-1deg); */
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 4px solid #000;
+    /* background: #EABCFF; */
+}
+
+.box-wcu img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 41px;
+    height: 40px;
+    background: transparent;
+}
+
+.expertise {
+    transform: rotate(-1deg);
+    flex-shrink: 0;
+    background: #EABCFF;
+}
+
+.customization {
+    transform: rotate(1deg);
+    flex-shrink: 0;
+    background: #CDFF50;
+}
+
+.quality {
+    transform: rotate(-1deg);
+    flex-shrink: 0;
+    background: #FF9644;
+}
+
+.timely {
+    transform: rotate(1deg);
+    flex-shrink: 0;
+    background: #FF7262;
+}
+
+.satisfaction {
+    transform: rotate(-1deg);
+    flex-shrink: 0;
+    background: #54FFE0;
+}
+
+.box-wcu h2 {
+    color: #000;
+    text-align: center;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+    margin-left: 60px;
+    margin-top: 0.5rem;
+}
+
+.box-wcu h3 {
+    background: transparent;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.38rem;
+    gap: 12rem;
+}
+
+.tech-stack h2 {
+    color: #000;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tech-stack-detail p {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    text-align: justify;
+}
+
+.tech-stack img {
+    width: 50vw;
+    height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* INDUSTRIES WE SERVE IN-------------------------------------------------------- */
+
+.industries {
+    background-image: url('/industries-bg.png');
+    padding-bottom: 4.2rem;
+}
+
+.industries h2 {
+    background: transparent;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.industries h3 {
+    background: transparent;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-align: justify;
+    font-family: Gilroy-Medium;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.industries img {
+    background: transparent;
+    margin-left: 17rem;
+}
+
+.satisfied-customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.satisfied-customer h2 {
+    display: inline-flex;
+    padding: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.3125rem;
+    border: 4px solid #000;
+    background: #80EBFF;
+    color: #000;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lines-left {
+    padding-right: 1.93rem;
+}
+
+.lines-right {
+    padding-left: 1.93rem;
+}
+
+.satisfied-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.62rem;
+}
+
+.green {
+    background-color: #CDFF50;
+    margin-top: 6.25rem;
+}
+
+.blob {
+    margin-left: 60rem;
+}

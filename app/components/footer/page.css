@@ -1,0 +1,111 @@
+.rectangle-fo {
+    border-top: 4px solid #000;
+    background: #A2BCFF;
+    display: flex;
+    gap: 31.25rem;
+    margin-top: 4.31rem;
+}
+
+.work {
+    background: transparent;
+}
+
+.work p {
+    display: flex;
+    margin-left: 4.25rem;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+}
+
+.work img {
+    display: flex;
+    margin-left: 4.25rem;
+    background: transparent;
+    width: 15.75rem;
+    height: 2.5rem;
+}
+
+.connect-links {
+    display: flex;
+    margin-right: 4.31rem;
+    gap: 4.38rem;
+    background: transparent;
+}
+
+.connect-footer {
+    background: transparent;
+}
+
+.connect-links ul {
+    background: transparent;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.connect-footer h3 {
+    margin-left: 1.5rem;
+    background: transparent;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quick-links {
+    background: transparent;
+}
+
+.quick-links ul {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quick-links h3 {
+    white-space: nowrap;
+    background: transparent;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.copyright-line {
+    background: #A2BCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 45.625rem;
+    height: 0.0625rem;
+    background: #000;
+}
+
+.copyright-line p {
+    background: transparent;
+    color: #000;
+    font-family: Gilroy-Regular;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

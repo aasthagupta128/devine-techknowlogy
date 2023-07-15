@@ -1,0 +1,236 @@
+.main-contact img {
+    width: 100%;
+}
+
+contact-text {
+    color: #FFF;
+    text-align: center;
+    font-family: VANDAL-Free-Font;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 4.13rem;
+    left: 13%;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+}
+
+.contact-us {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 30%;
+    left: 14%;
+}
+
+.top-section {
+    background: #C8EB2D;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 6.25rem;
+    border-radius: 0.3125rem;
+    border: 4px solid #000;
+}
+
+.lower-section {
+    background: #D7C0D0;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 28.125rem;
+}
+
+.right-section {
+    display: flex;
+    background: transparent;
+    /* flex-direction: column; */
+}
+
+.right-section img {
+    width: 50vw;
+    margin-left: 1rem;
+    margin-right: auto;
+    background: transparent;
+}
+
+.right-section form {
+    width: 50vw;
+    margin-left: 1rem;
+    margin-right: auto;
+    background: transparent;
+}
+
+.box {
+    /* width: 60vw; */
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0.3125rem;
+    border: 4px solid #000;
+}
+
+.ellipse {
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    display: flex;
+    gap: 0.94rem;
+    height: 13vh;
+    margin-top: auto;
+    margin-left: 3.75rem;
+    margin-bottom: auto;
+}
+
+
+/* FORM */
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    background: #D7C0D0;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 0.8rem 0rem 0.5625rem 0.2rem;
+    border-radius: 0.3125rem;
+    border: 2px solid #000;
+    background: #F2F5F2;
+    margin-top: 0.5rem;
+}
+
+#full-name::placeholder,
+#email::placeholder,
+#message::placeholder {
+    color: #929292;
+    font-family: Gilroy-Regular;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="submit"]:focus {
+    outline: none;
+}
+
+.support {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 37.12rem;
+    gap: 21.8rem;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+g {
+    color: #006D69;
+    font-family: Gilroy-Bold;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+email-t {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+line {
+    color: #FF3434;
+    font-family: Gilroy-Medium;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.made-by {
+    margin-top: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    /* width: 20vw;
+    margin-left: auto;
+    margin-right: auto; */
+    /* text-align: justify; */
+    align-items: center;
+}
+
+line-made-by {
+    color: #FF3434;
+    font-family: Gilroy-Medium;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* white-space: nowrap; */
+    /* display: flex; */
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.red-sparkle {
+    margin-top: 5.94rem;
+    margin-left: 0.25rem;
+    margin-right: 0rem;
+}
+
+.purple-sparkle {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: 37.25rem;
+}

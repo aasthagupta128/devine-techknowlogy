@@ -1,0 +1,300 @@
+body {
+    background-color: #F1F1F1;
+    ;
+}
+
+.header-image {
+    width: 102vw;
+    height: 98vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.design-services {
+    position: relative;
+    background-image: url('/web-design-bg.svg');
+    background-size: cover;
+    width: 100vw;
+    height: 76vh;
+}
+
+.design-services h2 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFFD54;
+    text-align: center;
+    text-shadow: 2px 2px 0px 0px #000;
+    font-family: VANDAL-Free-Font;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+}
+
+.design-services P {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #000000;
+    text-align: center;
+    text-shadow: 2px 2px 0px 0px #000;
+    font-family: VANDAL-Free-Font;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+}
+
+.box-container {
+    display: flex;
+    position: relative;
+    top: 50%;
+    /* left: 50%; */
+    background: transparent;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container-services {
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    width: 80vw;
+    background: transparent;
+}
+
+.box-services {
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0.3125rem;
+    border: 4px solid #000;
+    background: #CDFB6A;
+    box-shadow: 4px 4px 0px 0px #000;
+}
+
+box-title {
+    color: #000;
+    text-align: center;
+    font-family: VANDAL Free Font;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+}
+
+box-para {
+    color: #000;
+    /* text-align: center; */
+    font-family: Gilroy-Medium;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+    display: flex;
+    align-items: flex-end;
+}
+
+.development-services {
+    position: relative;
+    background-image: url('/web-dev-bg.png');
+    background-size: cover;
+    width: 100vw;
+    height: 75.5vh;
+    margin-top: 7.12rem;
+}
+
+.ul-cointainer-web-dev-1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    gap: 2.44rem;
+    background: transparent;
+}
+
+.ul-cointainer-web-dev-1 ul {
+    border-radius: 0.625rem;
+    border: 2px solid #000;
+    background: #9EC738;
+    box-shadow: 4px 4px 0px 0px #000;
+    color: #000;
+    text-align: center;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.5rem 1rem;
+}
+
+.ul-cointainer-web-dev-2 {
+    position: absolute;
+    top: 40%;
+    left: 69%;
+    gap: 2.44rem;
+    background: transparent;
+}
+
+.ul-cointainer-web-dev-2 ul {
+    border-radius: 0.625rem;
+    border: 2px solid #000;
+    background: #9EC738;
+    box-shadow: 4px 4px 0px 0px #000;
+    color: #000;
+    text-align: center;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.5rem 1rem;
+}
+
+dev-title {
+    position: absolute;
+    top: 52%;
+    left: 40%;
+    gap: 2.44rem;
+    background: transparent;
+    color: #000;
+    text-align: center;
+    font-family: VANDAL-Free-Font;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.development-services dev-heading {
+    color: #000;
+    text-align: center;
+    text-shadow: 2px 2px 0px 0px #FFE602;
+    font-family: VANDAL-Free-Font;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 80vw;
+    position: relative;
+    /* margin-top: 2rem; */
+    top: 2.5rem;
+}
+
+.color-1 {
+    background: #9EC738;
+}
+
+.ul-cointainer-web-dev-1 .color-2 {
+    background: #FF4F73;
+}
+
+.ul-cointainer-web-dev-1 .color-3 {
+    background: #FFC510;
+}
+
+.ul-cointainer-web-dev-2 .color-4 {
+    background: #7E6AFB;
+}
+
+.ul-cointainer-web-dev-2 .color-5 {
+    background: #FF9644;
+}
+
+.ul-cointainer-web-dev-2 .color-6 {
+    background: #C7C7C7;
+}
+
+.social-media-web {
+    background: url('/social-media-bg.png');
+    position: relative;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+.social-media-web ul {
+    /* list-style-type: none; */
+    position: absolute;
+    background: #7E6AFB;
+    top: 45%;
+    left: 30%;
+}
+
+.social-media-web li {
+    background: #7E6AFB;
+    text-align: left;
+    color: #ffffff;
+    font-family: VANDAL-Free-Font;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.25rem;
+}
+
+.ul-cointainer-social {
+    background: #7E6AFB;
+}
+
+
+/* .social-media-web ul li:before {
+    content: '\2022';
+    margin-right: 0.5em;
+    background: #7E6AFB;
+} */
+
+.web-services {
+    background: url('/web-hosting.png');
+    position: relative;
+    background-size: cover;
+    width: 80vw;
+    height: 87vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.web-services-heading {
+    position: relative;
+    margin-left: 28.13rem;
+    bottom: 5rem;
+    width: 25.125rem;
+    color: #000;
+    text-align: center;
+    font-family: VANDAL Free Font;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.yellow {
+    background-color: #FFF066;
+    margin-top: 7.13rem;
+    display: flex;
+    align-items: center;
+}
+
+.orange {
+    background-color: #FD6F00;
+    margin-top: 9.75rem;
+}
