@@ -76,11 +76,11 @@ const page = () => {
             </div>
             <div className='review-box'>
               <div className='project-review-content'>
-              "The website design for Sudeep Plastic Surgery Hospital exceeded our expectations. The emphasis on facilities provided and timing was all perfect. Overall, a user-friendly and professional website!"
+              "“I loved your work, the attention to details and the pace of work is what I liked the most. great work keep it up!!”"
               </div>
               <div className='name-designation'>
-              <div className='project-review-name'>Dr. Prayas Kumar</div>
-              <div className='review-designation'>M. Ch. Plastic Surgeon, Sudeep Plastic Surgery Center</div>
+              <div className='project-review-name'>Dr. Prayatna Kumar</div>
+              <div className='review-designation'>M.S. E.N.T., Sudeep ENT Hospital</div>
               </div>
             </div>
             </div>

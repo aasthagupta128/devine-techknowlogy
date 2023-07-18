@@ -10,40 +10,45 @@
         flex-direction: column;
         align-items: center;
     }
-    .quotes{
+    
+    .quotes {
         color: #6041F8;
         font-family: Sigmar One;
         font-size: 5rem;
         line-height: normal;
     }
+    
     .header-proj-para {
         color: #000;
         text-align: center;
-        font-family: VANDAL Free Font;
+        font-family: VANDAL-Free-Font;
         font-size: 3.75rem;
         width: 80%;
         display: inline;
     }
-    .main-project{
-        display:flex;
+    
+    .main-project {
+        display: flex;
         align-items: center;
         flex-direction: column;
         gap: 5rem;
         margin-right: 2rem;
-        margin-left: 2rem ;
+        margin-left: 2rem;
     }
-    .projects{
+    
+    .projects {
         display: flex;
-    gap:5rem;
-    width: 80vw;
-    align-items: center;
+        gap: 5rem;
+        width: 80vw;
+        align-items: center;
     }
-
-   .project-logo img{
-    width: 9.375rem;
-    height: 2.40575rem;
-   }
-    .project-description{
+    
+    .project-logo img {
+        width: 9.375rem;
+        height: 2.40575rem;
+    }
+    
+    .project-description {
         display: flex;
         color: #000;
         font-family: Gilroy-Medium;
@@ -55,8 +60,9 @@
         min-height: 15.1875rem; */
         align-items: center;
     }
+    
     .project1-main,
-    .project2-main{
+    .project2-main {
         display: flex;
         padding: 1.25rem;
         align-items: center;
@@ -66,43 +72,49 @@
         box-shadow: 4px 4px 0px 0px #000;
         flex-direction: column;
     }
-    .project1-main{
+    
+    .project1-main {
         background: #FDBD8F;
-
     }
     
-    .journey-heading{
+    .journey-heading {
         color: #000;
-font-family: VANDAL Free Font;
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 3.25rem */
+        font-family: VANDAL-Free-Font;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 3.25rem */
     }
+    
     .project1,
-    .project2{
+    .project2 {
         gap: 2rem;
         display: flex;
     }
-    .project2-main{
+    
+    .project2-main {
         background: #BCFFDA;
     }
-    .project-heading{
+    
+    .project-heading {
         display: flex;
         color: #000;
-        font-family: VANDAL Free Font;
+        font-family: VANDAL-Free-Font;
         font-size: 1.3125rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
-    .tech-stack{
+    
+    .tech-stack {
         display: flex;
         flex-direction: column;
-        gap:1rem;
+        gap: 1rem;
         align-items: center;
     }
-    .tech{
+    
+    .tech {
         display: flex;
         padding: 0.1875rem 0.3125rem;
         justify-content: center;
@@ -114,215 +126,227 @@ line-height: 130%; /* 3.25rem */
         box-shadow: 2px 2px 0px 0px #000;
         width: fit-content;
         color: #000;
-font-family: VANDAL Free Font;
-font-size: 1.3125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 1.70625rem */
+        font-family: VANDAL-Free-Font;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 1.70625rem */
     }
-
+    
     .project-left,
-    .project-right{
-        gap:1rem;
+    .project-right {
+        gap: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+    
     .check-live-project1 a,
-    .check-live-project2 a{
+    .check-live-project2 a {
         text-decoration: none;
         color: #FFF;
-font-family: VANDAL Free Font;
-font-size: 1.3125rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+        font-family: VANDAL-Free-Font;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
-.check-live-project1{
-    display: flex;
-padding: 0.5625rem 1.125rem;
-justify-content: center;
-align-items: center;
-gap: 0.625rem;
-background: #000;
-box-shadow: 3px 3px 0px 0px #6041F8;
-}
-
-.check-live-project2{
-    display: flex;
-padding: 0.5625rem 1.125rem;
-justify-content: center;
-align-items: center;
-gap: 0.625rem;
-background: #000;
-box-shadow: 3px 3px 0px 0px #FFC510;
-}
-.review-heading{
-    display: flex;
-    align-items: center;
-    gap:2rem;
-    margin-bottom: -2rem;
-}
-.reviews{
-    display: flex;
-    gap: 2.3rem;
-    margin-top: -3rem;
-    /* flex-direction: column; */
-}
-.review-title{
-    color: #000;
-text-align: center;
-font-family: VANDAL Free Font;
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 3.25rem */
-}
-.project-review-content{
-    color: #000;
-font-family: Gilroy-Medium;
-font-size: 1.3125rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-max-width: 21.875rem;
-}
-.project-review-name{
-    color: #000;
-font-family: Gilroy-Bold;
-font-size: 1.3125rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.review-designation{
-    color: #000;
-text-align: center;
-font-family: Gilroy-Medium;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-max-width: 15.0625rem;
-}
-.name-designation{
-    display: flex;
-flex-direction: column;
-align-items: center;
-gap: 0.3125rem;
-}
-
-.review-box{
-    display: flex;
-padding: 0.625rem;
-flex-direction: column;
-align-items: center;
-gap: 1.875rem;
-border: 2px solid #000;
-box-shadow: 4px 4px 0px 0px #000;
-border-radius: 0.2rem;
-}
-
-@media (max-width: 1300px){
-.project1-main,
-.project2-main{
-    min-height: 38rem;
-}
-}
-@media (max-width: 1100px){
-.projects{
-    flex-direction: column;
-}
-
-.project1-main,
-.project2-main{
-    min-height: auto;
-}
-}
-
-@media (max-width: 520px){
-    .project-description{
-        font-size: 0.8125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 130%;
-    }
-    .project1-main,
-    .project2-main{
-        display: inline-flex;
-padding: 1.25rem;
-flex-direction: column;
-align-items: center;
-gap: 0.9375rem;
-    }
-    .project-logo img{
-        width: 6.25rem;
-        height: 1.60381rem;
-    }
-
-    .project-right{
+    
+    .check-live-project1 {
         display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 1;
-height: auto;
+        padding: 0.5625rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        background: #000;
+        box-shadow: 3px 3px 0px 0px #6041F8;
     }
-    .project-left{
+    
+    .check-live-project2 {
         display: flex;
-flex-direction: column;
-align-items: center;
-gap: 1.25rem;
+        padding: 0.5625rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        background: #000;
+        box-shadow: 3px 3px 0px 0px #FFC510;
     }
-    .project-heading{
-        font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-    }
-    .tech{
+    
+    .review-heading {
         display: flex;
-padding: 0.1875rem 0.3125rem;
-justify-content: center;
-align-items: center;
-gap: 0.625rem;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: -2rem;
+    }
+    
+    .reviews {
+        display: flex;
+        gap: 2.3rem;
+        margin-top: -3rem;
+        /* flex-direction: column; */
+    }
+    
+    .review-title {
         color: #000;
-font-family: VANDAL Free Font;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 1.3rem */
+        text-align: center;
+        font-family: VANDAL-Free-Font;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 3.25rem */
     }
-    .project1-main,
-    .project2-main{
-        gap:2rem;
-        height: auto;
+    
+    .project-review-content {
+        color: #000;
+        font-family: Gilroy-Medium;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 21.875rem;
     }
-    .check-live-project1,
-    .check-live-project2{
-        color: #FFF;
-font-family: VANDAL Free Font;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    
+    .project-review-name {
+        color: #000;
+        font-family: Gilroy-Bold;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
-    .reviews{
-        flex-direction: column;
-    }
-    .review-title,.journey-heading,.header-proj-para{
-        font-size: 1.8rem;
-    }
-    .quotes{
-        font-size: 3rem;
-    }
-    .project-review-content,
-    .review-designation,
-    .project-review-name{
+    
+    .review-designation {
+        color: #000;
+        text-align: center;
+        font-family: Gilroy-Medium;
         font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 15.0625rem;
     }
-}
-
+    
+    .name-designation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3125rem;
+    }
+    
+    .review-box {
+        display: flex;
+        padding: 0.625rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.875rem;
+        border: 2px solid #000;
+        box-shadow: 4px 4px 0px 0px #000;
+        border-radius: 0.2rem;
+    }
+    
+    @media (max-width: 1300px) {
+        .project1-main,
+        .project2-main {
+            min-height: 38rem;
+        }
+    }
+    
+    @media (max-width: 1100px) {
+        .projects {
+            flex-direction: column;
+        }
+        .project1-main,
+        .project2-main {
+            min-height: auto;
+        }
+    }
+    
+    @media (max-width: 520px) {
+        .project-description {
+            font-size: 0.8125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+        }
+        .project1-main,
+        .project2-main {
+            display: inline-flex;
+            padding: 1.25rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.9375rem;
+        }
+        .project-logo img {
+            width: 6.25rem;
+            height: 1.60381rem;
+        }
+        .project-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1;
+            height: auto;
+        }
+        .project-left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.25rem;
+        }
+        .project-heading {
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .tech {
+            display: flex;
+            padding: 0.1875rem 0.3125rem;
+            justify-content: center;
+            align-items: center;
+            gap: 0.625rem;
+            color: #000;
+            font-family: VANDAL-Free-Font;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            /* 1.3rem */
+        }
+        .project1-main,
+        .project2-main {
+            gap: 2rem;
+            height: auto;
+        }
+        .check-live-project1,
+        .check-live-project2 {
+            color: #FFF;
+            font-family: VANDAL-Free-Font;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .reviews {
+            flex-direction: column;
+        }
+        .review-title,
+        .journey-heading,
+        .header-proj-para {
+            font-size: 1.8rem;
+        }
+        .quotes {
+            font-size: 3rem;
+        }
+        .project-review-content,
+        .review-designation,
+        .project-review-name {
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
