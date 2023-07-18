@@ -6,6 +6,10 @@
     font-family: Gilroy-bold;
     src: url('/Gilroy-Bold.ttf');
 }
+@font-face {
+    font-family: Sigmar One;
+    src: url('/SigmarOne.ttf');
+}
 
 @font-face {
     font-family: VANDAL-Free-Font;
