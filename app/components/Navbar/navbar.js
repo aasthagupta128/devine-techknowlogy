@@ -26,7 +26,7 @@ export default function Navbar()
         <div className={`links ${isOverlayOpen ? 'open' : ''}`}>
         <Link href="/home" className={`home-link ${pathname === "/home" ? 'active':''}`}>Home</Link>
           <Link href="/services" className={`services-link ${pathname === "/services" ? 'active':''}`}>Services</Link>
-          <Link href="/project" className={`projects-link ${pathname === "/project" ? 'active':''}`}>Projects</Link>
+          <Link href="/projects" className={`projects-link ${pathname === "/project" ? 'active':''}`}>Projects</Link>
           <Link href="/contact" className={`contact-link ${pathname === "/contact" ? 'active':''}`}>Contact</Link>
         </div>
         <div className={`hamburger ${isOverlayOpen ? 'hide' : ''}`} onClick={toggleOverlay}>
@@ -39,7 +39,7 @@ export default function Navbar()
       <div className="overlay-links">
         <Link href="/home" onClick={closeOverlay}>Home</Link>
         <Link href="/services" onClick={closeOverlay}>Services</Link>
-        <Link href="/project" onClick={closeOverlay}>Projects</Link>
+        <Link href="/projects" onClick={closeOverlay}>Projects</Link>
         <Link href="/contact" onClick={closeOverlay}>Contact</Link>
       </div>
     </div>

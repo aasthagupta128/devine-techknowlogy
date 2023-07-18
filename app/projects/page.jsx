@@ -76,7 +76,7 @@ const page = () => {
             </div>
             <div className='review-box'>
               <div className='project-review-content'>
-              "“I loved your work, the attention to details and the pace of work is what I liked the most. great work keep it up!!”"
+              “I loved your work, the attention to details and the pace of work is what I liked the most. great work keep it up!!”
               </div>
               <div className='name-designation'>
               <div className='project-review-name'>Dr. Prayatna Kumar</div>
