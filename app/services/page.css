@@ -1,34 +1,36 @@
 body {
     background-color: #F1F1F1;
-    ;
 }
 
 .header-image {
-    width: 102vw;
-    height: 98vh;
+    width: 100vw;
+    /* height: 98vh; */
     margin-left: auto;
     margin-right: auto;
+    margin-top: 4rem;
 }
 
 .design-services {
     position: relative;
-    background-image: url('/web-design-bg.svg');
-    background-size: cover;
+    display: block;
+}
+
+.design-services-img {
+    content: url('/web-design-bg-phone.png');
     width: 100vw;
-    height: 76vh;
+    display: block;
 }
 
 .design-services h2 {
     position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+    top: 1%;
+    left: 25%;
+    width: 50%;
     color: #FFFD54;
     text-align: center;
     text-shadow: 2px 2px 0px 0px #000;
     font-family: VANDAL-Free-Font;
-    font-size: 2.5rem;
+    font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -37,15 +39,13 @@ body {
 
 .design-services P {
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: #000000;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    color: #000;
     text-align: center;
-    text-shadow: 2px 2px 0px 0px #000;
     font-family: VANDAL-Free-Font;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -65,9 +65,10 @@ body {
 
 .flex-container-services {
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 1.62rem;
     position: absolute;
-    top: 43%;
+    top: 25%;
     left: 10%;
     width: 80vw;
     background: transparent;
@@ -87,7 +88,7 @@ box-title {
     color: #000;
     text-align: center;
     font-family: VANDAL Free Font;
-    font-size: 1.875rem;
+    font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -98,7 +99,7 @@ box-para {
     color: #000;
     /* text-align: center; */
     font-family: Gilroy-Medium;
-    font-size: 1.3125rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -107,21 +108,72 @@ box-para {
     align-items: flex-end;
 }
 
+.yellow {
+    background: #FFF066;
+}
+
 .development-services {
     position: relative;
-    background-image: url('/web-dev-bg.png');
-    background-size: cover;
-    width: 100vw;
-    height: 75.5vh;
-    margin-top: 7.12rem;
+    display: block;
+}
+
+.development-services-img {
+    content: url('/web-dev-bg-phone.png');
+    width: 100%;
+    display: block;
+}
+
+.development-services dev-heading {
+    color: #000;
+    text-align: center;
+    text-shadow: 2px 2px 0px 0px #FFE602;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    right: 5%;
+}
+
+dev-title {
+    position: absolute;
+    background: transparent;
+    color: #000;
+    text-align: center;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 23%;
+    left: 30%;
+    right: 30%;
+    width: 12rem;
+}
+
+.dev-ser {
+    display: flex;
+    flex-direction: column;
+    /* gap: 40rem; */
+    position: absolute;
+    top: 35%;
+    left: 10%;
 }
 
 .ul-cointainer-web-dev-1 {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    gap: 2.44rem;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    /* margin-left: 2rem; */
+    /* margin-right: 60rem; */
+    gap: 0rem;
     background: transparent;
+    margin-right: 0;
 }
 
 .ul-cointainer-web-dev-1 ul {
@@ -132,7 +184,7 @@ box-para {
     color: #000;
     text-align: center;
     font-family: VANDAL-Free-Font;
-    font-size: 1.875rem;
+    font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -140,11 +192,16 @@ box-para {
 }
 
 .ul-cointainer-web-dev-2 {
-    position: absolute;
-    top: 40%;
-    left: 69%;
-    gap: 2.44rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    /* margin-left: 60rem; */
+    /* margin-right: 4rem; */
+    margin-left: 0rem;
+    /* margin-right: 2rem; */
+    gap: 0rem;
     background: transparent;
+    width: 80vw;
 }
 
 .ul-cointainer-web-dev-2 ul {
@@ -155,45 +212,11 @@ box-para {
     color: #000;
     text-align: center;
     font-family: VANDAL-Free-Font;
-    font-size: 1.875rem;
+    font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding: 0.5rem 1rem;
-}
-
-dev-title {
-    position: absolute;
-    top: 52%;
-    left: 40%;
-    gap: 2.44rem;
-    background: transparent;
-    color: #000;
-    text-align: center;
-    font-family: VANDAL-Free-Font;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.development-services dev-heading {
-    color: #000;
-    text-align: center;
-    text-shadow: 2px 2px 0px 0px #FFE602;
-    font-family: VANDAL-Free-Font;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: transparent;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    width: 80vw;
-    position: relative;
-    /* margin-top: 2rem; */
-    top: 2.5rem;
 }
 
 .color-1 {
@@ -221,80 +244,285 @@ dev-title {
 }
 
 .social-media-web {
-    background: url('/social-media-bg.png');
     position: relative;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
+    display: block;
+}
+
+.social-media-img {
+    content: url('/social-media-bg-phone.png');
+    width: 100%;
+    display: block;
 }
 
 .social-media-web ul {
-    /* list-style-type: none; */
-    position: absolute;
     background: #7E6AFB;
-    top: 45%;
-    left: 30%;
+    position: absolute;
+    top: 35%;
+    width: 100%;
 }
 
 .social-media-web li {
     background: #7E6AFB;
     text-align: left;
-    color: #ffffff;
+    color: #FFF;
     font-family: VANDAL-Free-Font;
-    font-size: 2.5rem;
+    font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 1.25rem;
+    background: transparent;
+    /* margin-top: 1.25rem; */
+    /* position: absolute;
+top: 1%; */
 }
 
-.ul-cointainer-social {
-    background: #7E6AFB;
-}
-
-
-/* .social-media-web ul li:before {
-    content: '\2022';
-    margin-right: 0.5em;
-    background: #7E6AFB;
-} */
-
-.web-services {
-    background: url('/web-hosting.png');
-    position: relative;
-    background-size: cover;
+.ul-cointainer-social ul {
+    display: flex;
+    flex-direction: column;
     width: 80vw;
-    height: 87vh;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
+    gap: 1.25rem;
+    background: transparent;
+}
+
+.web-services {
+    position: relative;
+}
+
+.web-services-img {
+    content: url('/web-hosting-phone.svg');
+    width: 100%;
+    display: block;
+    margin-top: 1.63rem;
 }
 
 .web-services-heading {
     position: relative;
-    margin-left: 28.13rem;
-    bottom: 5rem;
-    width: 25.125rem;
+    margin-top: 3.75rem;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 25.125rem; */
     color: #000;
     text-align: center;
     font-family: VANDAL Free Font;
-    font-size: 2.5rem;
+    font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.yellow {
-    background-color: #FFF066;
-    margin-top: 7.13rem;
-    display: flex;
-    align-items: center;
+.orange {
+    background: #FD6F00;
 }
 
-.orange {
-    background-color: #FD6F00;
-    margin-top: 9.75rem;
+@media(max-width:500px) {
+    .development-services-img {
+        margin-top: 7rem;
+    }
+    .design-services P {
+        top: 6rem;
+    }
+    .design-services h2 {
+        top: 2%;
+        left: 15%;
+        width: 70%;
+    }
+    .flex-container-services {
+        top: 20%;
+    }
+    .development-services {
+        margin-top: 10rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .development-services-img {
+        margin-top: 7rem;
+    }
+    .design-services P {
+        top: 6rem;
+    }
+    .design-services h2 {
+        top: 2%;
+        left: 15%;
+        width: 70%;
+    }
+    .flex-container-services {
+        top: 20%;
+    }
+    .development-services {
+        margin-top: 10rem;
+    }
+    .design-services-img {
+        content: url('/web-design-bg-phone.png');
+        width: 100vw;
+        height: 180vh;
+        display: block;
+    }
+    .design-services h2 {
+        font-size: 2.5rem;
+    }
+    .design-services p {
+        font-size: 2.5rem;
+        top: 25%;
+    }
+    .flex-container-services {
+        top: 45%;
+    }
+    .social-media-img {
+        content: url('/social-media-bg-phone.png');
+        width: 100%;
+        display: block;
+        height: 180vh;
+    }
+    .development-services-img {
+        content: url('/web-dev-bg-phone.png');
+        width: 100%;
+        display: block;
+        height: 180vh;
+    }
+    .development-services dev-heading {
+        font-size: 2rem;
+    }
+    .dev-ser {
+        top: 40%;
+    }
+    .development-services dev-title {
+        left: 35%;
+    }
+    .social-media-web li {
+        font-size: 2.5rem;
+    }
+    .ul-cointainer-social ul {
+        top: 40%;
+    }
+}
+
+@media(min-width:450px) {
+    .development-services dev-title {
+        font-size: 2rem;
+        top: 23%;
+        left: 25%;
+        right: 20%;
+        width: 18rem;
+    }
+}
+
+@media(min-width:1000px) {
+    .header-image {
+        content: url('/services-landing.svg');
+    }
+    .design-services-img {
+        content: url('/web-design-bg.svg');
+        width: 100vw;
+        display: block;
+    }
+    .flex-container-services {
+        flex-direction: row;
+        top: 50%;
+        left: 10%;
+    }
+    .design-services h2 {
+        top: 5%;
+        font-size: 2.5rem;
+    }
+    .design-services P {
+        top: 25%;
+        font-size: 2.5rem;
+    }
+    box-title {
+        font-size: 1.875rem;
+    }
+    box-para {
+        font-size: 1.3125rem;
+    }
+    .yellow {
+        margin-top: 5rem;
+    }
+    .development-services-img {
+        content: url('/web-dev-bg.png');
+    }
+    .development-services {
+        margin-top: 5rem;
+    }
+    .development-services dev-heading {
+        font-size: 2.5rem;
+        left: 15%;
+    }
+    .development-services dev-title {
+        font-size: 2rem;
+        top: 50%;
+        left: 40%;
+        right: 50%;
+    }
+    .dev-ser {
+        flex-direction: row;
+        gap: 35rem;
+    }
+    .ul-cointainer-web-dev-1 {
+        width: 20vw;
+        height: 2.875rem;
+    }
+    .ul-cointainer-web-dev-2 {
+        width: 20vw;
+        height: 2.875rem;
+        margin-left: 2rem;
+    }
+    .ul-cointainer-web-dev-1 ul,
+    .ul-cointainer-web-dev-2 ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .web-services-heading {
+        font-size: 2.5rem;
+    }
+    .web-services-img {
+        content: url('/web-hosting.png');
+        width: 100%;
+        display: block;
+        margin-top: 1.63rem;
+    }
+    .social-media-img {
+        content: url('/social-media-bg.png');
+        width: 100%;
+        display: block;
+    }
+    .social-media-web ul {
+        /* background: #7E6AFB; */
+        position: absolute;
+        top: 35%;
+        left: 37%;
+        width: 100%;
+        background: transparent;
+    }
+    .social-media-web li {
+        font-size: 2.5rem;
+        background: transparent;
+    }
+}
+
+@media(min-width:1350px) {
+    dev-title {
+        font-size: 2.5rem;
+        top: 50%;
+        left: 36%;
+        width: 22rem;
+    }
+}
+
+@media(min-width:1242px) {
+    .dev-ser {
+        flex-direction: row;
+        gap: 35rem;
+    }
+}
+
+@media(min-width:1129px) {
+    .development-services dev-heading {
+        font-size: 2rem;
+        width: 70vw;
+    }
 }

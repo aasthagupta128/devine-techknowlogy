@@ -66,16 +66,37 @@ body {
 
 /* CONNECT WITH US --------------------------------------------------------*/
 
+
+/* 
+.container {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-up {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.green {
+    background-color: #cdff50;
+    margin-top: 6.25rem;
+}
+
 .connect-with-us {
     display: inline-flex;
     padding: 4.375rem 3.125rem;
     align-items: center;
     border-radius: 0.3125rem;
     border: 4px solid #000;
-    background: #EABCFF;
+    background: #eabcff;
     box-shadow: 4px 4px 0px 0px #000;
-    margin-left: 11.38rem;
-    margin-right: 11.44rem;
+    gap: 21.75rem;
+    position: relative;
 }
 
 .connect-with-us-content {
@@ -89,7 +110,7 @@ body {
 }
 
 .connect-with-us-para {
-    width: 30vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -98,54 +119,127 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 1.18rem; */
 }
 
 .ping-us {
     border-radius: 0.3125rem;
-    background: #6041F8;
+    background: #6041f8;
     box-shadow: 3px 3px 0px 0px #000;
     display: flex;
     padding: 0.5625rem 1.125rem;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
-    color: #FFF;
+    color: #fff;
     font-family: VANDAL-Free-Font;
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 21.75rem;
-    margin-top: 2rem;
-    margin-bottom: 0rem;
+    white-space: nowrap;
 }
 
 .connect-button {
     border-radius: 0.3125rem;
-    background: #6041F8;
+    background: #6041f8;
     box-shadow: 3px 3px 0px 0px #000;
     display: flex;
     padding: 0.5625rem 1.125rem;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
-    color: #FFF;
+    color: #fff;
     font-family: VANDAL-Free-Font;
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 21.75rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     white-space: nowrap;
 }
 
 .blue {
-    /* display: inline; */
-    color: #6041F8;
+    color: #6041f8;
     font-family: Gilroy-Bold;
+} */
+
+
+/* PING US BOX */
+
+.container-up {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0.3125rem;
+    border: 4px solid #000;
+    background: #EABCFF;
+    box-shadow: 4px 4px 0px 0px #000;
+    gap: 1.12rem;
+    top: 5rem;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-down {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0.3125rem;
+    border: 4px solid #000;
+    background: #bcffda;
+    box-shadow: 4px 4px 0px 0px #000;
+    gap: 1.12rem;
+    top: 5rem;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ping-us-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+    margin-bottom: 1.81rem;
+}
+
+.ping-us-t {
+    border-radius: 0.3125rem;
+    background: #6041F8;
+    box-shadow: 3px 3px 0px 0px #000;
+    color: #FFF;
+    font-family: VANDAL-Free-Font;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1.12rem;
+    white-space: nowrap;
+}
+
+.ping-us-t a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.blue {
+    color: #6041f8;
+    font-family: Gilroy-Bold;
+}
+
+.connect-with-us-para {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1.88rem;
 }
 
 .icons {
@@ -155,39 +249,36 @@ body {
     gap: 1.62rem;
 }
 
-.red-sparkle {
-    display: flex;
-    margin-top: 5.94rem;
-    margin-left: 39.25rem;
-    margin-right: auto;
-    width: 1.5rem;
-    height: 2.90625rem;
-    flex-shrink: 0;
-}
-
-.purple-sparkle {
-    display: flex;
-    margin-top: 0rem;
-    margin-left: auto;
-    margin-right: 37.25rem;
-    margin-bottom: 5rem;
-    width: 1.5rem;
-    height: 2.90625rem;
-    flex-shrink: 0;
-}
-
-.connect h2 {
-    color: #000;
-    font-family: VANDAL-Free-Font;
-    font-size: 1.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.connect {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media(min-width:1000px) {
+    .connect-with-us-para {
+        font-size: 1.875rem;
+    }
+    .container-up {
+        flex-direction: row;
+        top: 0;
+        align-items: center;
+        padding: 4.375rem 3.125rem;
+        align-items: center;
+        gap: 21.75rem;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-right: 3.12rem; */
+    }
+    .container-down {
+        margin-top: 5rem;
+        flex-direction: row;
+        top: 0;
+        align-items: center;
+        padding: 4.375rem 3.125rem;
+        align-items: center;
+        gap: 21.75rem;
+        width: 80vw;
+        /* margin-right: 3.12rem; */
+    }
+    .ping-us-div {
+        margin-right: 3.12rem;
+        align-items: center;
+        justify-content: center;
+    }
 }

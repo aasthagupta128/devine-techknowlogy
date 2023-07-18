@@ -7,7 +7,6 @@
 
 .header {
     position: relative;
-    margin-top: 5rem;
 }
 
 .header img {
@@ -19,7 +18,6 @@
     flex-shrink: 0; */
     margin-left: auto;
     margin-right: auto;
-    flex-shrink: 0;
 }
 
 .useless-1 {
@@ -67,8 +65,7 @@
     align-items: center;
     gap: 0.625rem;
     color: white;
-    font-family: Gilroy-Medium;
-    text-align: center;
+    font-family: Gilroy-Regular;
 }
 
 .col-01 p {
@@ -93,8 +90,7 @@
 
 /* PING US BOX */
 
-
-/* .container-up {
+.container-up {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -147,7 +143,7 @@
     font-weight: 400;
     line-height: normal;
     padding: 1.88rem;
-} */
+}
 
 
 /* WHY CHOOSE US---------------------------------------------------------------------------------- */
@@ -319,7 +315,7 @@
 .industries-image {
     display: block;
     width: 100%;
-    content: url('/industries-phone.svg');
+    content: url('/industries-phone.png');
 }
 
 .industries h2 {
@@ -397,21 +393,6 @@
     display: none;
 }
 
-.container-down {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    border-radius: 0.3125rem;
-    border: 4px solid #000;
-    background: #bcffda;
-    box-shadow: 4px 4px 0px 0px #000;
-    gap: 1.12rem;
-    top: 5rem;
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 @media(max-width:328px) {
     .home-main {
         gap: 15rem
@@ -426,7 +407,7 @@
 
 @media(min-width:1000px) {
     .home-main {
-        gap: 0rem
+        gap: 0
     }
     .flexbox {
         flex-direction: row;
@@ -436,17 +417,6 @@
         top: 15rem;
     }
     .container-up {
-        flex-direction: row;
-        top: 0;
-        align-items: center;
-        padding: 4.375rem 3.125rem;
-        align-items: center;
-        gap: 21.75rem;
-        width: 80vw;
-        /* margin-right: 3.12rem; */
-    }
-    .container-down {
-        margin-top: 5rem;
         flex-direction: row;
         top: 0;
         align-items: center;
@@ -530,7 +500,7 @@
     .industries-image {
         display: block;
         width: 100%;
-        content: url('/industries-full-bg-web.svg');
+        content: url('/industries-bg.png');
     }
     .industries h2 {
         position: absolute;
@@ -542,7 +512,7 @@
         left: 10%;
         /* content: url('/.industries.svg'); */
     }
-    /* .industries-web {
+    .industries-web {
         content: url('/industries.svg');
         position: absolute;
         top: 80%;
@@ -550,7 +520,7 @@
         left: 00%;
         width: 69rem;
         height: 11rem;
-    } */
+    }
     .satisfied-customer img {
         display: flex;
     }

@@ -13,7 +13,7 @@ const page = () => {
     </div>
     {/* DESIGN SERVICES------------------------------------------------------------------------------------------------ */}
 
- <div className="design-services" id="design">
+ <div className="design-services">
     <img src="" alt="" className='design-services-img' />
  <h2>"Where Imagination Takes Shape: Unleashing Design Excellence"</h2>
   <p>WEBSITE DESIGN SERVICES</p>
@@ -36,13 +36,13 @@ const page = () => {
        </div> 
        <div className="ping-us-div">
            <div className="ping-us-t">
-              <a href="/contact"> PING US</a>
+               PING US
            </div>
        </div>
        </div>
 
        {/* WEB DEVELOPMENT SERVICES */}
-       <div className="development-services"id="development">
+       <div className="development-services">
         <img src="" alt="" className='development-services-img'/>
       <dev-heading>"Building Powerful and Engaging Online Experiences, transforming ideas into digital reality"</dev-heading>
       <dev-title>WEB DEVELOPMENT SERVICES</dev-title>
@@ -64,7 +64,7 @@ const page = () => {
       </div>
     </div>
     {/* SOCIAL MEDIA--------------------------------- */}
-<div className="social-media-web" id="social-media">
+<div className="social-media-web">
   <img src="" alt="" className='social-media-img'/>
   <div className="ul-cointainer-social">
 <ul>
@@ -91,10 +91,10 @@ const page = () => {
        </div> 
        <div className="ping-us-div">
            <div className="ping-us-t">
-           <a href="contact">PING US</a>
+               PING US
            </div>
            <div className="ping-us-t">
-           <a href="project">CHECK MORE PROJECTS</a>
+              CHECK MORE PROJECTS
            </div>
        </div>
        </div>

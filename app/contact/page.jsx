@@ -1,9 +1,11 @@
-import React from 'react'
+
 import './page.css';
 import Footer from '../components/footer/page';
+import Socialmedia from '../components/social-media/page';
+
 const page = () => {
   return (
-    <div className='main-contact'>
+    <div className='main-contact' >
         <img src="contact-bg-1.png" alt="" />
         <contact-text>Contact us for the fun of Crafting!</contact-text>
       <div className="contact-us">
@@ -18,7 +20,7 @@ const page = () => {
         <div className="box lower-section">
             <div className="left-section"></div>
             <div className="right-section">
-                <img src="/contact-svg.svg" alt="" />
+                <img src="/contact-svg.svg" alt="" className="right-sec-img"/>
             <form>
               <div className="form-group">
                 <label for="full-name">Full Name:</label>
@@ -32,22 +34,24 @@ const page = () => {
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" placeholder="Enter Your Messages" required></textarea>
               </div>
-              <button type="submit">Submit</button>
+              <div className="submit-btn-div">
+              <button type="submit">Submit</button></div>
             </form>
           </div>
         </div>
       </div>
+      
       <div className="support">
         <div className="left-side">
           <g>SUPPORT</g>
           <email-t>devine.techknowlogy@gmail.com</email-t>
           <line>Reach out and touch our world!</line>
         </div>
-        <div className="right-side">
+        {/* <div className="right-side">
           <g>TRIBE</g>
           <email-t>Jainil Shah | Aastha Gupta</email-t>
           <line>Founders on Fire</line>
-        </div>
+        </div> */}
       </div>
       <div className="made-by">
           <g>MADE BY</g>
@@ -56,20 +60,12 @@ const page = () => {
         </div>
 
          {/* SOCIAL MEDIA LINKS---------------------------------------------------- */}
-
-       <img src="red-sparkle.svg" alt="" className="red-sparkle"/>
-       <div className="connect">
-        <h2>CONNECT WITH US</h2>
-        <div className="icons">
-          <img src="twitter.svg" alt="" />
-          <img src="gmail.svg" alt="" />
-          <img src="github.svg" alt="" />
-        </div>
-       </div>
-       <img src="purple-sparkle.svg" alt="" className="purple-sparkle"/>
+<div className="useless-2">
+       <Socialmedia/>  
 
        {/* FOOTER */}
 <Footer/>
+</div>
 
     </div>
   )

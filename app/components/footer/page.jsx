@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
     <div className="rectangle-fo">
       <div className="work">
-        <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </p>
+        <p>In the end, it's not just a website; It's a piece of our soul, a manifestation of the love we hold for the art of creation. </p>
         <img src="/DT-footer.png" alt="" />
       </div>
       <div className="connect-links">

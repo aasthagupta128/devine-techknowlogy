@@ -1,5 +1,5 @@
 import Footer from '../components/footer/page'
-import './home.css'
+import './page.css'
 const page = () => {
   return (
    <div className="home-main">
@@ -12,21 +12,21 @@ const page = () => {
             <p>
               We offer the best web designing services that combine creativity, functionality, and user experience to deliver exceptional online solutions.
             </p>
-            <a href="/services#design"><h3>Know More</h3></a>
+            <a href="https://example.com"><h3>Know More</h3></a>
           </div>
           <div className="col col-01">
             <h2>Web Development</h2>
             <p>
               We offer the best web development services, leveraging cutting-edge technologies and a team of skilled professionals to deliver high-quality and innovative websites and web applications.
             </p>
-            <a href="/services#development"><h3>Know More</h3></a>
+            <a href="https://example.com"><h3>Know More</h3></a>
           </div>
           <div className="col col-01">
             <h2>Digital Marketing</h2>
             <p>
               We offer the best digital marketing services, employing strategic tactics and innovative campaigns to help businesses effectively reach and engage their target audience in the online landscape.
             </p>
-            <a href="/services#social-media"><h3>Know More</h3></a>
+            <a href="https://example.com"><h3>Know More</h3></a>
           </div>
         </div>
         </div>
@@ -39,7 +39,7 @@ const page = () => {
         </div> 
         <div className="ping-us-div">
             <div className="ping-us-t">
-                <a href="contact">PING US</a>
+                PING US
             </div>
         </div>
         </div>
@@ -96,7 +96,7 @@ const page = () => {
       <h2>INDUSTRIES WE SERVE</h2>
      
      <h3>We serve diverse industries such as finance, healthcare, e-commerce, education, and entertainment. We provide tailored solutions to meet the unique needs and challenges faced by businesses in these sectors.
-   
+    <img src="" alt="" className='industries-web'/>
     </h3>
 
 
@@ -112,21 +112,6 @@ const page = () => {
       <img src="/sudeepplasticsurgery.png" alt="" className="sudeepplasticsurgery" />
       <img src="/sudeepENT.png" alt="" className="sudeepENT"/>
       </div>
-       {/* PING US DOUBLE DECKER */}
-       <div className="container-down">
-       
-       <div className="connect-with-us-para">
-       <span className="blue">Connect 	</span> with us on the journey of finding all the  <span className="blue">web</span> and  <span className="blue">digital solutions</span> with us.
-       </div> 
-       <div className="ping-us-div">
-           <div className="ping-us-t">
-           <a href="contact">PING US</a>
-           </div>
-           <div className="ping-us-t">
-              <a href="project">CHECK MORE PROJECTS</a>
-           </div>
-       </div>
-       </div>
       {/* FOOTER */}
       <Footer/>
         </div>
