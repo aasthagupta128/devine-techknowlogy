@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-// import Navbar from './components/Navbar/navbar'
-=======
->>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
+
 import Navbar from './components/Navbar/navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
