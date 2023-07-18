@@ -5,82 +5,85 @@ import Socialmedia from '../components/social-media/page'
 const page = () => {
   return (
     <div className='main-project'>
-        <div className="header-project">
-            <img src="/header-quote-up.svg" alt="" className='header-quote-up'/>
-            <div className="header-proj-para">our website is more than just a digital presence; it’s a testament to our commitment to excellence</div>
-           
-            <img src="/header-quote-down.svg" alt="" className='header-quote-down'/>
-        </div>
-
-        <div className="projects">
-            <div className="project-1">
-                <img src="/sudeepplasticsurgery.png" alt="" className='sudeepplasticsurgery' />
-                <img src="/mood-1.png" alt="" className='mood-1' />
-                <div className='check-now'>Check the Live Website now!!</div>
-                <h2>SUDEEP PLASTIC SURGERY</h2>
-                <div className='description'>We focused on creating a simple design for Sudeep Plastic Surgery Hospital, emphasizing the various surgeries offered. Efforts were made to provide clear and concise information, enabling potential patients to easily understand their options.</div>
+        <div className="header-project">            
+            <div className="header-proj-para">
+            <span className='quotes'>“</span>our website is more than just a digital presence; it’s a testament to our commitment to excellence<span className='quotes'> ”</span>
             </div>
-            
         </div>
-        <div className="tech-stack-1">
-          <ul>FIGMA</ul>
-          <ul>CSS</ul>
-          <ul>HTML</ul>
-          <ul>REACT.JS</ul>
-      </div>
-        <div className="review-1">
-          <img src="blue-review.svg" alt="" />
-          <div className="review-des">“The website design for Sudeep Plastic Surgery Hospital exceeded our expectations. The emphasis on facilities provided and timing was all perfect. Overall, a user-friendly and professional website!“</div>
-          <h2>Dr. Prayas Kumar</h2>
-          <p>M. Ch. Plastic Surgeon, Sudeep Plastic Surgery Center</p>
-           <div className="quote-yellow">
-            <img src="quote-yellow.svg" alt="" />
-           </div>
-        </div>
-         {/* CONNECT WITH US ---------------------------------------------------------------------------*/}
-         <div className="connect-with-us green">
-    <div className="connect-with-us-content">
-      <div className="connect-with-us-para">
-    <span className="blue">Connect 	</span> with us on the journey of finding all the  <span className="blue">web</span> and  <span className="blue">digital solutions</span> with us.
-    </div>
-    <div className="ping-us">PING US</div>
-    </div>
-    </div>
-      {/* PROJECT 2 */}
 
+            <div className='journey-heading'>OUR JOURNEY SO FAR...</div>
+            <div className='projects'>
+              <div className='project1-main'>
+              <div className='project1'>
+                <div className='project-left'>
+                  <div className='project-logo'>
+                    <img src="/sudeepplasticsurgery.png" alt="" />
+                  </div>
+                  <div className='tech-stack'>
+                    <div className='tech'>Figma</div>
+                    <div className='tech'>HTML</div>
+                    <div className='tech'>CSS</div>
+                    <div className='tech'>NEXT.JS</div>
+                  </div>
+                </div>
+                <div className='project-right'>
+                  <div className='project-heading'>Sudeep plastic surgery</div>
+                  <div className='project-description'>
+                  We focused on creating a simple design for Sudeep Plastic Surgery Hospital, emphasizing the various surgeries offered. Efforts were made to provide clear and concise information, enabling potential patients to easily understand their options.
+                  </div>
+                </div>
+                </div>
+                <div className='check-live-project1'><a href='https://sudeepplasticsurgery.com/' target='_blank'>Check live website</a></div>
+              </div>
+              <div className='project2-main'>
+                <div className='project2'>
+              <div className='project-left'>
+                  <div className='project-logo'>
+                    <img src="/sudeepENT.png" alt="" />
+                  </div>
+                  <div className='tech-stack'>
+                    <div className='tech'>Figma</div>
+                    <div className='tech'>HTML</div>
+                    <div className='tech'>CSS</div>
+                    <div className='tech'>NEXT.JS</div>
+                  </div>
+                </div>
+                <div className='project-right'>
+                  <div className='project-heading'>Sudeep plastic surgery</div>
+                  <div className='project-description'>
+                  The website design for Sudeep ENT Hospital focuses on simplicity, presenting a variety of ENT services while offering concise and clear information. It is perfectly tailored as per the clients needs.
+                  </div>
+                </div>
+                </div>
+                <div className='check-live-project2'><a href='https://sudeepent.netlify.app' target='_blank'>Check live website</a></div>
+              
+              </div>
+            </div>
 
-      <div className="project-2">
-        <img src="/sudeepENT.png" alt="" className='ENT-img'/>
-        <div className="ENT-descp">
-        The website design for Sudeep ENT Hospital focuses on simplicity, presenting a variety of ENT services while offering concise and clear information. It is perfectly tailored as per the clients needs.
-        </div>
-        <div className="ENT-live">
-          <p>Check the Live Website now!!</p>
-          <h2>SUDEEP ENT HOSPITAL</h2>
-          </div>
-      
-        <img src="mood-2.png" alt="" className="mood-2"/>
-      
-      </div>
+            {/* Reviews */}
 
-      <div className="tech-stack-2">
-        <ul>FIGMA</ul>
-        <ul>CSS</ul>
-        <ul>HTML</ul>
-        <ul>REACT.JS</ul>
-      </div>
-
-      {/* REVIEW */}
-     <div className="review-2">
-      <div className="para-ENT">“I loved your work, the attention to details and the pace of work is what I liked the most. great work keep it up!!”</div>
-      <img src="/red-thumbs-up.svg" alt="" className='red-thumbs-up'/>
-      <img src="/sudeepent-quote.svg" alt="" className='sudeepent-quote'/>
-      <div className="dr-prayatna">
-        <div className="name">Dr. Prayatna Kumar</div>
-        <div className="designation">M.S. E.N.T., Sudeep ENT Hospital</div>
-     </div>
-      </div>
-
+            <div className='review-heading'>
+              <div className='review-title'>What They say...</div><div className='quotes'>  ”</div></div>
+              <div className='reviews'>
+            <div className='review-box'>
+              <div className='project-review-content'>
+              "The website design for Sudeep Plastic Surgery Hospital exceeded our expectations. The emphasis on facilities provided and timing was all perfect. Overall, a user-friendly and professional website!"
+              </div>
+              <div className='name-designation'>
+              <div className='project-review-name'>Dr. Prayas Kumar</div>
+              <div className='review-designation'>M. Ch. Plastic Surgeon, Sudeep Plastic Surgery Center</div>
+              </div>
+            </div>
+            <div className='review-box'>
+              <div className='project-review-content'>
+              "The website design for Sudeep Plastic Surgery Hospital exceeded our expectations. The emphasis on facilities provided and timing was all perfect. Overall, a user-friendly and professional website!"
+              </div>
+              <div className='name-designation'>
+              <div className='project-review-name'>Dr. Prayas Kumar</div>
+              <div className='review-designation'>M. Ch. Plastic Surgeon, Sudeep Plastic Surgery Center</div>
+              </div>
+            </div>
+            </div>
 
      <Socialmedia/>
 
