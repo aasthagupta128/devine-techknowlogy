@@ -1,4 +1,4 @@
-.navbar {
+.navbar{
     overflow-x: hidden;
     width: 100%;
     height: auto;
@@ -11,6 +11,7 @@
     z-index: 1;
     /* gap: 50rem; */
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+<<<<<<< HEAD
 }
 
 .navbar .logo {
@@ -29,10 +30,32 @@
 }
 
 .links a {
+=======
+  }
+  
+  .navbar .logo {
+    margin-right: auto;
+  }
+  
+  .navbar .logo img {
+    margin: 0.8rem;
+    height: 2.8rem;
+  }
+  
+  
+  .links {
+    margin-right: 2rem;
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .links a {
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     font-size: 23px;
     text-decoration: none;
     padding: 0.3125rem 0.625rem;
     color: #000;
+<<<<<<< HEAD
     font-family: VANDAL Free Font;
     font-size: 1.3125rem;
     font-style: normal;
@@ -41,11 +64,23 @@
 }
 
 .links .home-link:hover {
+=======
+font-family: VANDAL Free Font;
+font-size: 1.3125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+  
+  .links .home-link:hover{
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     border-radius: 0.3125rem;
     border: 1px solid #000;
     box-shadow: 0px 3px 0px 0px #000;
     color: white;
     background-color: #6041F8;
+<<<<<<< HEAD
 }
 
 .links .services-link:hover {
@@ -105,10 +140,70 @@
 }
 
 .hamburger {
+=======
+  }
+  .links .services-link:hover {
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    box-shadow: 0px 3px 0px 0px #000;
+    color: white;
+    background-color:#49CF67;
+  }
+  .links .projects-link:hover {
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    box-shadow: 0px 3px 0px 0px #000;
+    color: white;
+    background-color:#E44002;
+  }
+  .links .contact-link:hover {
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    box-shadow: 0px 3px 0px 0px #000;
+    color: white;
+    background-color:#F8BA4C;
+  }
+
+  .links a.home-link.active{
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    box-shadow: 0px 3px 0px 0px #000; 
+    color: white; 
+    background:#6041F8;
+}
+
+.links a.active.services-link{
+border-radius: 0.3125rem;
+border: 1px solid #000;
+box-shadow: 0px 3px 0px 0px #000; 
+color: white; 
+background:#49CF67;
+}
+
+.links a.active.projects-link{
+border-radius: 0.3125rem;
+border: 1px solid #000;
+box-shadow: 0px 3px 0px 0px #000; 
+color: white; 
+background:#E44002;
+}
+
+.links a.active.contact-link{
+border-radius: 0.3125rem;
+border: 1px solid #000;
+box-shadow: 0px 3px 0px 0px #000; 
+color: white; 
+background:#F8BA4C;
+}
+
+
+  .hamburger {
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     display: none;
     /* flex-direction: column; */
     /* justify-content: center; */
     cursor: pointer;
+<<<<<<< HEAD
 }
 
 .line {
@@ -119,6 +214,18 @@
 }
 
 .overlay {
+=======
+  }
+  
+  .line {
+    background-color:#f1f1f1;
+    margin: 3px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .overlay{
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     display: flex;
     top: 0;
     left: 0;
@@ -128,19 +235,30 @@
     display: none;
     justify-content: center;
     color: #000;
+<<<<<<< HEAD
 }
 
 .overlay-links a {
+=======
+  }
+  
+  .overlay-links a{
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     display: flex;
     flex-direction: column;
     text-decoration: none;
     font-family: VANDAL Free Font;
+<<<<<<< HEAD
     color: rgb(3, 3, 3);
+=======
+    color: rgb(3, 3, 3);    
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     font-size: 1.3rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     align-content: center;
     padding: 0.3125rem 0.625rem;
+<<<<<<< HEAD
 }
 
 @media (max-width: 950px) {
@@ -148,22 +266,45 @@
         padding: 0px;
         width: 100%;
     }
+=======
+    
+  }  
+  
+  @media (max-width: 950px) {
+    .navbar {
+      padding: 0px;
+      width:100%;
+      }
+    
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     .navbar .logo {
         margin-right: auto;
     }
     .navbar .logo img {
+<<<<<<< HEAD
         margin-left: 20px;
         height: 2.5rem;
+=======
+      margin-left: 20px;
+      height: 2.5rem;
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     }
     .links {
+<<<<<<< HEAD
         margin-right: 20px;
         display: flex;
         gap: 1.2rem;
+=======
+      margin-right: 20px;
+      display: flex;
+      gap: 1.2rem;
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     }
 }
 
 @media (max-width: 700px) {
     .navbar .logo img {
+<<<<<<< HEAD
         margin-left: 20px;
         height: 1.8rem;
     }
@@ -172,9 +313,22 @@
     }
     .links a {
         font-size: 1rem;
+=======
+      margin-left: 20px;
+      height: 1.8rem;
+    }
+
+    .links{
+      gap:0.8rem;
+    }
+
+    .links a{
+      font-size: 1rem;
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
     }
 }
 
+<<<<<<< HEAD
 @media (max-width:550px) {
     .links {
         display: none;
@@ -215,4 +369,48 @@
     .navbar .logo img {
         margin-right: 5rem;
     }
+=======
+  @media (max-width:550px){
+    .links {
+      display: none;
+  }
+  
+  .navbar .logo img{
+    margin-right: 10rem;
+  }
+  .hamburger {
+      display: block;
+  }
+  .hamburger .line{
+    width: 2rem;
+    height: 0.2rem;
+    margin-right: 1rem;
+  }
+
+  .links.open {
+      display: none;
+  }
+  .overlay-links {
+      display: flex;
+      flex-direction: column;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      background-color: #f1f1f1;
+      align-items: center;
+      margin-top: 4rem;
+      position: fixed;
+      z-index: 1;
+  }
+ 
+  .overlay.open {
+      display: flex;
+  }
+}
+@media (max-width:400px){
+  .navbar .logo img{
+    margin-right: 5rem;
+  }
+>>>>>>> e334131118fb4348964e6fd075c9c33892d4f331
 }
